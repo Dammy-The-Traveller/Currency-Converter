@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conveter</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+    <body class="bg-dark" style="background-image: url('https://store-images.s-microsoft.com/image/apps.43630.14323591455066440.4fa2d451-8a1f-44fd-a536-5fda778060ee.5ad45e3a-3125-4acf-8a9f-8c6dc46f060e?mode=scale&q=90&h=1080&w=1920');">
+        <div class="row mt-5">
+                <div class="col-md-6 mx-auto">
+                      <div class="p-3">
+                         <h1 class="h6 text-center text-white p-2 border rounded mb-4">Currency Converter</h1>
+     
+                         <div>
+                               <p class="mb-0 text-white" ><span id="up" ></span></p>
+                               <p class="mb-0 display-6 text-white" ><span id="downs"></span></p>
+                               <p class="mb-0 text-white time" ><small id="time"></small></p>
+                         </div>
+                         <div class="p-2 border rounded mt-3">
+                               <div class="curr-div d-flex">
+                                   <input id="base-currency-amt" type="number" class="form-control currency-amt-inp bg-dark text-white m-1">
+                                   <select class="form-select currency-opt bg-dark text-white m-1" id="base-currency-opt">
+                                        <option value="">Nigerian Naira</option>
+                                        <option value="">Canadian Dollar</option>
+                                        <option value="">Chinese Yuan</option>
+                                   </select>
+                               </div>
+                               <div class="curr-div d-flex">
+                                 <input id="result-currency-amt" type="number" class="form-control currency-amt-inp bg-dark text-white m-1">
+                                 <select class="form-select currency-opt bg-dark text-white m-1" id="result-currency-opt">
+                                     <option value="">Nigerian Naira</option>
+                                     <option value="">Canadian Dollar</option>
+                                     <option value="">Chinese Yuan</option>
+                                </select>
+                               </div>
+                         </div>
+                      </div>
+                </div>
+         </div>
+     </body>
+<script src="script.js"></script>
+</html>
+
