@@ -66,7 +66,7 @@ var monthNames = [
   
                        } else {
                         console.error('Failed to fetch:', response.statusText);
-                          alert('Sommething went wrong ...')
+                  
                        }
                       //  console.log(response.success)
                   })
