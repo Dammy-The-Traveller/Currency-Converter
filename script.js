@@ -103,7 +103,7 @@ var monthNames = [
          
                           } else {
                             console.error('Failed to fetch:', response.statusText);
-                              alert('Sommething went wrong ...')
+                              
                           }
                        } else {
                           console.log('amount is NULL')
@@ -148,7 +148,7 @@ var monthNames = [
                       document.getElementById('result-currency-opt').innerHTML = optionsHTML
                   } else {
                     console.error('Failed to fetch:', response.statusText);
-                      alert('Something went wrong ...')
+                      
                   }
   
             }
